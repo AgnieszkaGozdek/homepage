@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    text-align: center;
+    max-width: 1000px;
+    margin: 20px 20px;
+    line-height: 1.5;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header__header{
+    text-align: center;
+    color: rgb(49, 47, 47);
+    background-color: rgb(214, 247, 215);
+    outline: 2px solid grey;
+}
+
+.section__header {
+    text-align: center;
+    color: rgb(49, 47, 47);
+
+}
+
+.section__names{
+    color: rgb(12, 55, 31);
+}
+
+.section__cytat {
+    color: brown;
+    padding: 5px 5px;
+}
+
+.section__foto {
+    margin: 30px auto;
+    display: block;
+    border: 2px dotted rgb(4, 41, 4);
+    border-radius: 10%;
+}
+
+.section__element{
+    width: max-width;
+    height: max-height;
+}
+
+.section__button{
+    box-shadow: 1px 2px 5px 4px;
+    margin: 5px;
+}
+
+.footer{
+    text-align: center;
+    margin: 40px; 
+}

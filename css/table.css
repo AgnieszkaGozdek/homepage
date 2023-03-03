@@ -1,0 +1,30 @@
+
+
+.table {
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+.table__cell:hover {
+    background-color: #548063;
+  }
+
+.table__cell {
+    border: 1px solid rgb(129, 129, 129);
+    padding: 10px;
+    text-align: center;
+}
+
+.table__row:nth-child(odd) {
+    background: rgb(151, 200, 172);
+
+}
+.table__header{
+    background-color: #648a73;
+}
+.table__caption{
+    caption-side:bottom;
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+    padding: 1%;
+}

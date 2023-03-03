@@ -1,0 +1,12 @@
+
+.navigation{
+    text-align: center;
+}
+.navigation__list{
+    list-style-type: none;
+   
+}
+.navigation__link{
+    color:green;
+    
+}
